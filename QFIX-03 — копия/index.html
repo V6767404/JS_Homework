@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Qulix</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+
+<body>
+<header>
+    <div class="header">
+        <img class="logo" src="img/logo.png">
+        <div>
+            <a href="http://fe.it-academy.by" class="city">New York</a>
+            <i class="fa fa-angle-down"></i>
+            <i class="fa fa-bell"></i>
+            <i class="fa fa-envelope"></i>
+            <a href="http://fe.it-academy.by">User name<img class="userPhoto" src="img/userPhoto.jpg"></a>
+            <form >
+                <input type="text" class="toggleMin" id="t1" placeholder="Search ...">
+            </form>
+            <i class="fa fa-search" onclick="slideMin()"></i>
+        </div>
+    </div>
+
+    <div class="headerMin">
+        <i class="fa fa-navicon"></i>
+        <img class="logoWhite" src="img/logo-white.png">
+        <span>Page title</span>
+        <img class="userPhotoBig" src="img/userPhotoBig.jpg">
+      <!--  <i class="fa fa-search" onclick="$( &#39;#fa-search&#39; ).trigger( &#39;click&#39; )"></i>-->
+    </div>
+</header>
+
+<div class="nav">
+    <nav class="nav1">
+        <a href="http://fe.it-academy.by">Menu item</a>
+        <a href="http://fe.it-academy.by">Menu item</a>
+        <a href="http://fe.it-academy.by">Menu item</a>
+        <a href="http://fe.it-academy.by">Menu item</a>
+        <a href="http://fe.it-academy.by">Menu item</a>
+    </nav>
+</div>
+
+<!--<nav class="mobileMenu">
+    <ul>
+        <li><a href="http://fe.it-academy.by">Menu item</a></li>
+        <li><a href="http://fe.it-academy.by">Menu item</a></li>
+        <li><a href="http://fe.it-academy.by">Menu item</a></li>
+        <li><a href="http://fe.it-academy.by">Menu item</a></li>
+        <li><a href="http://fe.it-academy.by">Menu item</a></li>
+        <li><a href="http://fe.it-academy.by">Menu item</a></li>
+    </ul>
+</nav>-->
+
+<div class="main">
+    <menu>
+        <li><a href="http://fe.it-academy.by">Submenu item 7d</a></li>
+        <li><a href="http://fe.it-academy.by">Submenu item 5d</a></li>
+        <li class="submenu">Submenu</li>
+        <li><a href="http://fe.it-academy.by">Submenu item 7d</a></li>
+        <li><a href="http://fe.it-academy.by">Submenu item 2d</a></li>
+        <li><a href="http://fe.it-academy.by">Submenu item 4d</a></li>
+        <li><a href="http://fe.it-academy.by">More tags</a></li>
+        <li class="submenu">Submenu</li>
+        <li><a href="http://fe.it-academy.by">Submenu item 1d</a></li>
+        <li><a href="http://fe.it-academy.by">Submenu item 1d</a></li>
+        <li class="submenu">Submenu</li>
+        <li><a href="http://fe.it-academy.by">Submenu item 4d</a></li>
+        <li><a href="http://fe.it-academy.by">Submenu item 2d</a></li>
+        <li><a href="http://fe.it-academy.by">Submenu item1 &amp; Submenu item2 2d</a></li>
+        <li><a href="http://fe.it-academy.by">Submenu item 7d</a></li>
+        <li><a href="http://fe.it-academy.by">Submenu item 1d</a></li>
+        <li><a href="http://fe.it-academy.by">Submenu item 1d</a></li>
+        <li class="submenu">Submenu</li>
+        <li><a href="http://fe.it-academy.by">Submenu item 2d</a></li>
+        <li><a href="http://fe.it-academy.by">Submenu item 1d</a></li>
+        <li><a href="http://fe.it-academy.by">Submenu item 3d</a></li>
+    </menu>
+
+    <div class="content">
+        <h1>Page title in <span>New York </span></h1>
+
+        <div class="form">
+            <form>
+                <input type="text" id="t1" placeholder="Search ...">
+            </form>
+            <div class="item">
+                <span>+ New item</span>
+                <i class="fa fa-sliders"></i>
+            </div>
+        </div>
+
+        <div class="formMin">
+            <i class="fa fa-search" id="fa-search" onclick="slide()"></i>
+            <form>
+                <input type="text" class="toggle" id="t1" placeholder="Search ...">
+            </form>
+            <div class="right">
+                <i class="fa fa-plus"></i>
+                <i class="fa fa-sliders"></i>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="image"><img src="img/photo1.jpg"></div>
+            <div class="postIns">
+                <span>User name</span>
+                <span class="member">Pro</span>
+                <span class="comments"><i class="fa fa-comments"></i><span> 2 </span><i class="fa fa-clock-o"></i> 2 0m</span>
+                <p class="title">Item title 1</p>
+                <p class="text">Suspendisse potenti. Duis imperdiet ex non leo condimentum efficitur. Sed rhoncus
+                    eleifend lacus sit amet faucibus. Nunc semper nisl a dolor pretium dapibus quis quis lacus. Nulla
+                    faucibus viverra laoreet. Fusce in scelerisque magna. Duis porta erat vitae lectus lacinia
+                    tempus.</p>
+                <span class="tags"><i class="fa fa-tag"></i> tag1, tag2, tag3</span>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="image"><img src="img/photo2.jpg"></div>
+            <div class="postIns">
+                <span>User name</span>
+                <span class="member">Member</span>
+                <span class="comments"><i class="fa fa-comments"></i><span> 2 </span><i
+                        class="fa fa-clock-o"></i> 20m</span>
+                <p class="title">Item title 2</p>
+                <p class="text">Suspendisse potenti. Duis imperdiet ex non leo condimentum efficitur. Sed rhoncus
+                    eleifend lacus sit amet faucibus. Nunc semper nisl a dolor pretium dapibus quis quis lacus. Nulla
+                    faucibus viverra laoreet. Fusce in scelerisque magna. Duis porta erat vitae lectus lacinia
+                    tempus.</p>
+                <span class="tags"><i class="fa fa-tag"></i> tag1, tag2, tag3</span>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="image"><img src="img/photo3.jpg"></div>
+            <div class="postIns">
+                <span>User name</span>
+                <span class="member">Member</span>
+                <span class="comments"><i class="fa fa-comments"></i><span> 2 </span><i
+                        class="fa fa-clock-o"></i> 20m</span>
+                <p class="title">Item title 3</p>
+                <p class="text">Suspendisse potenti. Duis imperdiet ex non leo condimentum efficitur. Sed rhoncus
+                    eleifend lacus sit amet faucibus. Nunc semper nisl a dolor pretium dapibus quis quis lacus. Nulla
+                    faucibus viverra laoreet. Fusce in scelerisque magna. Duis porta erat vitae lectus lacinia
+                    tempus.</p>
+                <span class="tags"><i class="fa fa-tag"></i> tag1, tag2, tag3</span>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="image"><img src="img/photo4.jpg"></div>
+            <div class="postIns">
+                <span>User name</span>
+                <span class="member">Member</span>
+                <span class="comments"><i class="fa fa-comments"></i><span> 2 </span><i
+                        class="fa fa-clock-o"></i> 20m</span>
+                <p class="title">Item title 4</p>
+                <p class="text">Suspendisse potenti. Duis imperdiet ex non leo condimentum efficitur. Sed rhoncus
+                    eleifend lacus sit amet faucibus. Nunc semper nisl a dolor pretium dapibus quis quis lacus. Nulla
+                    faucibus viverra laoreet. Fusce in scelerisque magna. Duis porta erat vitae lectus lacinia
+                    tempus.</p>
+                <span class="tags"><i class="fa fa-tag"></i> tag1, tag2, tag3</span>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <a href="http://fe.it-academy.by"><i class="fa fa-angle-left"></i>Previous</a>
+            <a href="http://fe.it-academy.by">Next<i class="fa fa-angle-right"></i></a>
+        </div>
+
+        <div class="footer">
+            <nav class="nav2">
+                <a href="http://fe.it-academy.by">About</a>
+                <a href="http://fe.it-academy.by">Policies</a>
+                <a href="http://fe.it-academy.by">Site map</a>
+                <a href="http://fe.it-academy.by">Help</a>
+                <a href="http://fe.it-academy.by">Contact us</a>
+            </nav>
+
+            <div class="copy">
+                <img src="img/logo-min.png">
+                <span>© 2015. Qulix Systems. All rights reserved.</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
