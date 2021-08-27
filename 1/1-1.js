@@ -10,20 +10,20 @@ function Person(name, age) {
 
     Person.prototype._getFormattedAge = function() {
         return this._personAge + ' гр.';
-    };
+    }
     // dailyNorm - ф-ция сетер (есть аргумент) и гетер (если нет аргумента)
 
     this.dailyNorm = function (amount) {
         if (!arguments.length) return getFormattedAge();
 
         personAge = amount;
-    };
+    }
 
     this.showInfo = function() {
       //  console.log(self.dailyNorm()); // геттер (нет аргумента)
    this.dailyNorm(age); // сеттер (есть аргумент)
    console.log('Привет, меня зовут ' + this.name + " мне " + getFormattedAge());
-    };
+    }
 }
     var vasya = new Person('Вася', 46);
     vasya.showInfo();
