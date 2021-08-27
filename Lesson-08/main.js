@@ -5,7 +5,7 @@
 function Cat(name) {
     this.name = name;
 
-    this.feed = function() {
+    this.feed = function () {
 
     };
 }
@@ -29,13 +29,16 @@ function Cat(name) {
     this.foodAmount = 50;
 
     var self = this;
+
     function formatFoodAmount() {
         return self.foodAmount + 'гp.';
-      }
-    this.feed = function() {
+    }
+
+    this.feed = function () {
         console.log('Насыпаем в миску ' + formatFoodAmount() + ' корма');
     }
 }
+
 var barsik = new Cat('Барсик');
 
 barsik.feed();
